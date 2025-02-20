@@ -1,6 +1,13 @@
 import random
-print("this code will generate a letter run this code until 1 letter gets 5 times being chosen. The letter is:")
-computer_choice=["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "s", "t", "u", "v", "w", "x", "y", "z",]
-computer_action=random.choice(computer_choice)
-print(computer_action)
-#made in microsoft visual studio code
+run = True
+while run == True:
+  print("this code will generate a letter. The letter is:")
+  computer_choice=["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "s", "t", "u", "v", "w", "x", "y", "z",]
+  computer_action=random.choice(computer_choice)
+  print(computer_action)
+  ans = input ("would you like to continue (y/n)?
+  if ans == ("y"):
+    pass()
+  if ans == ("n"):
+    run = False
+
